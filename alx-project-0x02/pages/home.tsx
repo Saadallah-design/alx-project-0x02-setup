@@ -1,5 +1,6 @@
 import Card from '@/components/common/Card';
 import PostModal from '@/components/common/PostModal';
+import Header from '@/components/layout/Header';
 import React from 'react'
 import Posts from './posts';
 
@@ -7,6 +8,7 @@ const home = () => {
   return (
     <main>
       <h1>Home Page</h1>
+      <Header />
       <div>
         {/* using the CardProps */}
         <Card title="Alx Project 0x02." content="This project is about using react reusable components and props." />
