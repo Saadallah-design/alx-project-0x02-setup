@@ -4,7 +4,7 @@ import React from 'react'
 // to avoid potential name conflicts
 // Using import type is the recommended standard for importing only type definitions. 
 // It helps build tools (like Babel or Webpack) optimize compilation.
-import {type CardProps} from '../../interfaces';
+import { type CardProps } from '../../interfaces';
 
 
 // here im using Functional Component with Generics to specify the type of props
