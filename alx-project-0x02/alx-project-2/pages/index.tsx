@@ -1,13 +1,21 @@
-import React from 'react'
+import Image from "next/image";
+import { Geist, Geist_Mono } from "next/font/google";
 
-function HomePage() {
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export default function Home() {
   return (
     <div>
-      <h1>This is a greeting message!</h1>
-      <p>Welcome to the Alx project 2 homepage.</p>
+      <h1>Hello to the HomePage</h1>
+      <p>Working on the second task!</p>
     </div>
-  )
+  );
 }
-
-export default HomePage;
-
